@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-niob
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0027-tenant/tkrw-pr712-0075-0027-app/devfile-sample-niob@sha256:c69bd0b58920343dee06862474884f82447e78b5596de67111c4dff4b9039b30
         name: my-nodejs
         ports:
         - containerPort: 3001
